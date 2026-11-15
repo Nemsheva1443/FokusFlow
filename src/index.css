@@ -1,0 +1,57 @@
+*{
+ 
+  box-sizing: border-box;
+}
+
+html {
+  min-height: 100%;
+
+}
+
+
+
+body { 
+  background-color: #f6f7f2;
+  color: #26332a;
+}
+
+.app-layout {
+  display: flex;
+  min-height: 100vh;
+}
+
+.sidebar {
+  width: 240px;
+  flex-shrink: 0;
+  padding: 24px;
+ 
+  background-color: #e6eddf;
+  color: #26332a;
+}
+
+.main-content {
+  flex: 1;
+ 
+  padding: 32px;
+
+  background-color: #f6f7f2;
+  color: #26332a;
+}
+.navbar-list li {
+  list-style: none;
+ font-size: 16px;
+ margin-bottom: 12px;
+  padding: 0;
+}
+
+.navbar-list a {
+  display: block;
+  padding: 6px 12px;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.navbar-list li:first-child a {
+  font-size: 14px;
+  font-weight: bold;
+}
